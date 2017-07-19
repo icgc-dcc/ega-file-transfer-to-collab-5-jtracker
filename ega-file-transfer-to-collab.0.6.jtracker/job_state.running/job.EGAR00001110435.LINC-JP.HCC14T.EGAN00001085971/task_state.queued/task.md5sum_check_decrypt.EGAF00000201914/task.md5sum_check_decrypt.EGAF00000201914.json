@@ -1,0 +1,15 @@
+{
+  "task": "md5sum_check_decrypt", 
+  "depends_on": [
+    "completed@decryption.EGAF00000201914"
+  ], 
+  "tool": "md5sum_check", 
+  "command": "md5sum_check.py", 
+  "input": {
+    "file_md5sum": "{{file_md5sum@decryption.EGAF00000201914}}", 
+    "file": "{{file@decryption.EGAF00000201914}}"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
