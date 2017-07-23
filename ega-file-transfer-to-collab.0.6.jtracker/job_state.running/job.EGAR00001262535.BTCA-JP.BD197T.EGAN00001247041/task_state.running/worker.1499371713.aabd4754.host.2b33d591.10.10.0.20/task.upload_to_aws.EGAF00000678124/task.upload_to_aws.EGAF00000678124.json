@@ -1,0 +1,24 @@
+{
+  "task": "upload_to_aws", 
+  "depends_on": [
+    "completed@generate_bai.EGAF00000678124", 
+    "completed@decryption.EGAF00000678124", 
+    "completed@download.EGAF00000678124"
+  ], 
+  "tool": "upload_to_aws", 
+  "command": "upload_to_aws.py", 
+  "input": {
+    "idx_file_md5sum": null, 
+    "file_name": "6068d8e23c5eca9e14e8a4e13bfa5597.BD197T_CAGATC_L006_R1_046.fastq.bz2", 
+    "idx_file": null, 
+    "object_id": "d717cc30-fabb-5ca2-beb8-1adaef11ed5b", 
+    "project_code": "BTCA-JP", 
+    "file_md5sum": "6068d8e23c5eca9e14e8a4e13bfa5597", 
+    "file": "/home/ubuntu/jtracker/worker.1499371713.aabd4754.host.2b33d591.10.10.0.20/job.EGAR00001262535.BTCA-JP.BD197T.EGAN00001247041/task.decryption.EGAF00000678124/6068d8e23c5eca9e14e8a4e13bfa5597.BD197T_CAGATC_L006_R1_046.fastq.bz2", 
+    "idx_object_id": null, 
+    "idx_file_name": null
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
