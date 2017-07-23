@@ -1,0 +1,39 @@
+{
+  "task": "prepare_metadata_xml", 
+  "depends_on": null, 
+  "tool": "prepare_metadata_xml", 
+  "command": "prepare_metadata_xml.py", 
+  "output": [
+    {
+      "xml_file_md5sum": "0d36bcf9d4bc93fe75a4588f8db7a25b", 
+      "xml_file_name": "bundle.EGAR00001261063.xml", 
+      "xml_file": "/home/ubuntu/jtracker/worker.1499371713.aabd4754.host.2b33d591.10.10.0.20/job.EGAR00001261063.BTCA-JP.BD160T.EGAN00001246960/task.prepare_metadata_xml/bundle.EGAR00001261063.xml", 
+      "_jt_": {
+        "worker_id": "worker.1499371713.aabd4754.host.2b33d591.10.10.0.20", 
+        "workflow_version": "0.6.7", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "xml_file_size": 3184, 
+      "runtime": {
+        "task_start": 1500848079, 
+        "task_stop": 1500848080
+      }
+    }
+  ], 
+  "input": {
+    "ega_metadata_repo": "https://raw.githubusercontent.com/icgc-dcc/ega-file-transfer/master/ega_xml/v20170630", 
+    "ega_metadata_file_name": "bundle.EGAR00001261063.xml", 
+    "ega_study_id": "EGAS00001000950", 
+    "ega_dataset_id": "EGAD00001001076", 
+    "ega_sample_id": "EGAN00001246960", 
+    "ega_analysis_id": null, 
+    "ega_experiment_id": "EGAX00001239312", 
+    "bundle_id": "EGAR00001261063", 
+    "project_code": "BTCA-JP", 
+    "ega_run_id": "EGAR00001261063"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
