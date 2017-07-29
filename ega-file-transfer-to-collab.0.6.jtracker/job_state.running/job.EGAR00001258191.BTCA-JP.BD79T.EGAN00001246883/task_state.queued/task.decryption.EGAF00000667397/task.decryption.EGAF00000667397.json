@@ -1,0 +1,18 @@
+{
+  "task": "decryption", 
+  "depends_on": [
+    "completed@download.EGAF00000667397"
+  ], 
+  "tool": "decryption", 
+  "command": "decryption.py", 
+  "input": {
+    "file_name": "{{file_name@download.EGAF00000667397}}", 
+    "file_md5sum": "{{file_md5sum@download.EGAF00000667397}}", 
+    "ega_file_id": "{{ega_file_id@download.EGAF00000667397}}", 
+    "object_id": "{{object_id@download.EGAF00000667397}}", 
+    "input_file": "{{file@download.EGAF00000667397}}"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
