@@ -1,0 +1,21 @@
+{
+  "task": "prepare_metadata_xml", 
+  "depends_on": null, 
+  "tool": "prepare_metadata_xml", 
+  "command": "prepare_metadata_xml.py", 
+  "input": {
+    "ega_metadata_repo": "https://raw.githubusercontent.com/icgc-dcc/ega-file-transfer/master/ega_xml/v20170630", 
+    "ega_metadata_file_name": "bundle.EGAR00001259549.xml", 
+    "ega_study_id": "EGAS00001000950", 
+    "ega_dataset_id": "EGAD00001001076", 
+    "ega_sample_id": "EGAN00001246918", 
+    "ega_analysis_id": null, 
+    "ega_experiment_id": "EGAX00001239265", 
+    "bundle_id": "EGAR00001259549", 
+    "project_code": "BTCA-JP", 
+    "ega_run_id": "EGAR00001259549"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
