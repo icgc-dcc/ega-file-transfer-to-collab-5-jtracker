@@ -1,0 +1,41 @@
+{
+  "task": "xml_upload_to_aws", 
+  "depends_on": [
+    "completed@prepare_metadata_xml"
+  ], 
+  "tool": "upload_to_aws", 
+  "command": "upload_to_aws.py", 
+  "output": [
+    {
+      "idx_file_size": 0, 
+      "idx_file_md5sum": null, 
+      "_jt_": {
+        "worker_id": "worker.1502211351.74d0670c.host.231181a3.10.10.1.7", 
+        "workflow_version": "0.6.7", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "idx_file": null, 
+      "allowed_upload": false, 
+      "file_md5sum": "d5c86eb33870b6ce7a5484a9c270301b", 
+      "file": "/home/ubuntu/jtracker/worker.1502211351.74d0670c.host.231181a3.10.10.1.7/job.EGAR00001256530.BTCA-JP.BD37T.EGAN00001246841/task.prepare_metadata_xml/bundle.EGAR00001256530.xml", 
+      "file_size": 0, 
+      "runtime": {
+        "task_start": 1502258611, 
+        "task_stop": 1502258611
+      }
+    }
+  ], 
+  "input": {
+    "file_name": "bundle.EGAR00001256530.xml", 
+    "object_id": "052245b1-2674-5d6f-a328-51999a2b4676", 
+    "file_md5sum": "d5c86eb33870b6ce7a5484a9c270301b", 
+    "file": "/home/ubuntu/jtracker/worker.1502211351.74d0670c.host.231181a3.10.10.1.7/job.EGAR00001256530.BTCA-JP.BD37T.EGAN00001246841/task.prepare_metadata_xml/bundle.EGAR00001256530.xml", 
+    "file_size": 3174, 
+    "bundle_id": "EGAR00001256530", 
+    "project_code": "BTCA-JP"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
