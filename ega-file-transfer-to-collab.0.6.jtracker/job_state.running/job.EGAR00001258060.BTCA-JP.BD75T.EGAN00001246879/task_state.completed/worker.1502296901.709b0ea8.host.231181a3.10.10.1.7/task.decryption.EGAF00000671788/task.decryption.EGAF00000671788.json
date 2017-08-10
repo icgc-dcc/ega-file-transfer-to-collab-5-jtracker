@@ -1,0 +1,38 @@
+{
+  "task": "decryption", 
+  "depends_on": [
+    "completed@download.EGAF00000671788"
+  ], 
+  "tool": "decryption", 
+  "command": "decryption.py", 
+  "output": [
+    {
+      "_jt_": {
+        "worker_id": "worker.1502296901.709b0ea8.host.231181a3.10.10.1.7", 
+        "workflow_version": "0.6.7", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "file_name": "80f1ed2827ab88c4816e6dafc0831aa7.BD75T_CGATGT_L003_R1_019.fastq.bz2", 
+      "ega_file_id": "EGAF00000671788", 
+      "object_id": "94552700-e9f4-5142-886f-bc384b7048e6", 
+      "file_md5sum": "80f1ed2827ab88c4816e6dafc0831aa7", 
+      "file": "/home/ubuntu/jtracker/worker.1502296901.709b0ea8.host.231181a3.10.10.1.7/job.EGAR00001258060.BTCA-JP.BD75T.EGAN00001246879/task.decryption.EGAF00000671788/80f1ed2827ab88c4816e6dafc0831aa7.BD75T_CGATGT_L003_R1_019.fastq.bz2", 
+      "file_size": 136423806, 
+      "runtime": {
+        "task_start": 1502342292, 
+        "task_stop": 1502342292
+      }
+    }
+  ], 
+  "input": {
+    "file_name": "80f1ed2827ab88c4816e6dafc0831aa7.BD75T_CGATGT_L003_R1_019.fastq.bz2", 
+    "file_md5sum": "80f1ed2827ab88c4816e6dafc0831aa7", 
+    "ega_file_id": "EGAF00000671788", 
+    "object_id": "94552700-e9f4-5142-886f-bc384b7048e6", 
+    "input_file": "/home/ubuntu/jtracker/worker.1502296901.709b0ea8.host.231181a3.10.10.1.7/job.EGAR00001258060.BTCA-JP.BD75T.EGAN00001246879/task.download.EGAF00000671788/80f1ed2827ab88c4816e6dafc0831aa7.BD75T_CGATGT_L003_R1_019.fastq.bz2"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
