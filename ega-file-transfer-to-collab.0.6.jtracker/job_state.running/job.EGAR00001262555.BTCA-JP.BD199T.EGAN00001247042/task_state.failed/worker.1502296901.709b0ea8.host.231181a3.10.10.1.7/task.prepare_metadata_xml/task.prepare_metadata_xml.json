@@ -3,6 +3,16 @@
   "depends_on": null, 
   "tool": "prepare_metadata_xml", 
   "command": "prepare_metadata_xml.py", 
+  "output": [
+    {
+      "_jt_": {
+        "worker_id": "worker.1502296901.709b0ea8.host.231181a3.10.10.1.7", 
+        "workflow_version": "0.6.7", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "failed"
+      }
+    }
+  ], 
   "input": {
     "ega_metadata_repo": "https://raw.githubusercontent.com/icgc-dcc/ega-file-transfer/master/ega_xml/v20170630", 
     "ega_metadata_file_name": "bundle.EGAR00001262555.xml", 
