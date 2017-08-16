@@ -1,0 +1,35 @@
+{
+  "task": "download", 
+  "depends_on": null, 
+  "tool": "download", 
+  "command": "download.py", 
+  "output": [
+    {
+      "_jt_": {
+        "worker_id": "worker.1502296920.7ba09f8b.host.231181a3.10.10.1.7", 
+        "workflow_version": "0.6.7", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "file_name": "b70dbc8912699026461c1808cf0b4277.BD203T_TGACCA_L006_R2_022.fastq.bz2", 
+      "ega_file_id": "EGAF00000681479", 
+      "object_id": "b22468d3-4fa1-5eb9-b9ce-faf4033dedab", 
+      "file_md5sum": "b70dbc8912699026461c1808cf0b4277", 
+      "file": "/home/ubuntu/jtracker/worker.1502296920.7ba09f8b.host.231181a3.10.10.1.7/job.EGAR00001262876.BTCA-JP.BD203T.EGAN00001246996/task.download.EGAF00000681479/b70dbc8912699026461c1808cf0b4277.BD203T_TGACCA_L006_R2_022.fastq.bz2", 
+      "runtime": {
+        "task_start": 1502870388, 
+        "task_stop": 1502870405
+      }
+    }
+  ], 
+  "input": {
+    "file_name": "b70dbc8912699026461c1808cf0b4277.BD203T_TGACCA_L006_R2_022.fastq.bz2", 
+    "file_md5sum": "b70dbc8912699026461c1808cf0b4277", 
+    "project_code": "BTCA-JP", 
+    "object_id": "b22468d3-4fa1-5eb9-b9ce-faf4033dedab", 
+    "ega_file_id": "EGAF00000681479"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
