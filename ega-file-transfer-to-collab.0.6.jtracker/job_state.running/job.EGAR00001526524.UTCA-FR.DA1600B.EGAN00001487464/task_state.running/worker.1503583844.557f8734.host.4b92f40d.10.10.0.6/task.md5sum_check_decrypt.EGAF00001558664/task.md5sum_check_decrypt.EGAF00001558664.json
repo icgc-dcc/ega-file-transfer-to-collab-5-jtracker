@@ -1,0 +1,15 @@
+{
+  "task": "md5sum_check_decrypt", 
+  "depends_on": [
+    "completed@decryption.EGAF00001558664"
+  ], 
+  "tool": "md5sum_check", 
+  "command": "md5sum_check.py", 
+  "input": {
+    "file_md5sum": "189ea385331ba19eb69a2558051895b2", 
+    "file": "/home/ubuntu/jtracker/worker.1503583844.557f8734.host.4b92f40d.10.10.0.6/job.EGAR00001526524.UTCA-FR.DA1600B.EGAN00001487464/task.decryption.EGAF00001558664/189ea385331ba19eb69a2558051895b2.ls3453_C9FD4ANXX_1_9nf.ua.bam"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
