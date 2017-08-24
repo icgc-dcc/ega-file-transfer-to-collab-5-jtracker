@@ -1,0 +1,16 @@
+{
+  "task": "qc_from_aws", 
+  "depends_on": [
+    "completed@upload_to_aws.EGAF00001558657"
+  ], 
+  "tool": "qc_from_aws", 
+  "command": "qc_from_aws.py", 
+  "input": {
+    "file_name": "9cec1e0c017e3efc8ed0f9b7041da967.ls3345_C9FD4ANXX_3_9nf.ua.bam", 
+    "project_code": "UTCA-FR", 
+    "object_id": "ec625e7f-b8f6-5798-8383-1f2a98017342"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
